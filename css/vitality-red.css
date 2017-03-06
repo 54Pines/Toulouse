@@ -7,6 +7,9 @@ html,
 body {
   height: 100%;
 }
+html {
+  overflow-x: hidden;
+}
 body,
 *,
 *:after,
@@ -1256,11 +1259,33 @@ img.main-logo {
   overflow: hidden;
 }
 /*.definition{
-  text-transform: capitalize;
+  text-transform: uppercase;
 }*/
 
 
 
+.contactForm {
+  border: 1px solid #D2B162;
+  /* outline: 2px solid #555; */
+  margin: 0 auto;
+  padding:5%;
+  width: 95%;
+  max-width: 500px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  border-radius: 3px;
+}
+
+.contactForm .btn.btn-outline-dark {
+  color: white;
+  border-color: white;
+}
+.contactForm .btn:hover {
+  background-color: #D2B162;
+  color: white;
+  border-color: transparent;
+}
 
 
 
