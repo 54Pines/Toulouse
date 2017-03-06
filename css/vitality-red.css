@@ -7,6 +7,12 @@ html,
 body {
   height: 100%;
 }
+body,
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
 .img-centered {
   margin: 0 auto;
 }
@@ -35,7 +41,7 @@ input.form-control {
   border-radius: 0 !important;
 }
 input.form-control:focus {
-  border-color: #EF4035;
+  border-color: #51211D;
   box-shadow: none;
 }
 .btn,
@@ -47,8 +53,8 @@ input.form-control:focus {
 }
 .btn-primary {
   color: white;
-  background-color: #EF4035;
-  border-color: #EF4035;
+  background-color: #51211D;
+  border-color: #51211D;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
@@ -86,11 +92,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #EF4035;
-  border-color: #EF4035;
+  background-color: #51211D;
+  border-color: #51211D;
 }
 .btn-primary .badge {
-  color: #EF4035;
+  color: #51211D;
   background-color: white;
 }
 body {
@@ -99,7 +105,7 @@ body {
   font-weight: 300;
 }
 a {
-  color: #EF4035;
+  color: #51211D;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
@@ -151,7 +157,7 @@ hr.right {
   margin: 15px 0 15px auto;
 }
 hr.colored {
-  border-color: #EF4035;
+  border-color: #51211D;
 }
 @media (min-width: 768px) {
   hr {
@@ -166,7 +172,7 @@ hr.colored {
   }
 }
 .text-primary {
-  color: #EF4035;
+  color: #51211D;
 }
 .navbar-fixed-top {
   margin-bottom: 0;
@@ -177,12 +183,12 @@ hr.colored {
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #EF4035;
+  color: #51211D;
   background-color: white;
   border-radius: 0;
 }
 .navbar-default {
-  background-color: #EF4035;
+  background-color: #51211D;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -484,7 +490,7 @@ aside.cta-quote span.quote {
   margin: auto 0 !important;
   top: 0;
   bottom: 0;
-  background-color: #EF4035 !important;
+  background-color: #51211D !important;
   color: white !important;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -575,7 +581,7 @@ aside.cta-quote span.quote {
   margin: auto 0 !important;
   top: 0;
   bottom: 0;
-  background-color: #EF4035 !important;
+  background-color: #51211D !important;
   color: white !important;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -602,6 +608,7 @@ aside.cta-quote span.quote {
   border: 3px solid #222;
   border-radius: 100%;
   font-size: 30px;
+  text-transform: lowercase;
 }
 .services .media .media-body {
   min-width: none;
@@ -687,7 +694,7 @@ aside.cta-quote span.quote {
   margin: auto 0 !important;
   top: 0;
   bottom: 0;
-  background-color: #EF4035 !important;
+  background-color: #51211D !important;
   color: white !important;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -816,7 +823,7 @@ aside.cta-quote span.quote {
   margin: auto 0 !important;
   top: -30px;
   bottom: 0;
-  background-color: #EF4035 !important;
+  background-color: #51211D !important;
   color: white !important;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -860,9 +867,9 @@ aside.cta-quote span.quote {
   transition: all 0.5s;
 }
 .portfolio-filter #filters li .filter.active {
-  background-color: #EF4035;
+  background-color: #51211D;
   color: white;
-  border-color: #EF4035;
+  border-color: #51211D;
 }
 #portfoliolist .mix {
   width: 31%;
@@ -900,7 +907,7 @@ aside.cta-quote span.quote {
   transition: all 0.5s;
 }
 #portfoliolist .mix .portfolio-wrapper .caption .caption-bg {
-  background: #EF4035;
+  background: #51211D;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -931,7 +938,7 @@ aside.cta-quote span.quote {
   }
 }
 .pricing {
-  color: white;
+  color: #D2B162;
   background-color: #222;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -1041,7 +1048,7 @@ aside.cta-quote span.quote {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #EF4035;
+  color: #51211D;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e1e1e1;
@@ -1088,7 +1095,7 @@ footer.footer .copyright p.small {
 }
 .btn-outline-light:hover,
 .btn-outline-light:focus {
-  color: #EF4035;
+  color: #51211D;
   background: white;
   outline: none;
 }
@@ -1103,8 +1110,8 @@ footer.footer .copyright p.small {
 .btn-outline-dark:hover,
 .btn-outline-dark:focus {
   color: white;
-  background: #EF4035;
-  border-color: #EF4035;
+  background: #51211D;
+  border-color: #51211D;
   outline: none;
 }
 .btn {
@@ -1131,7 +1138,7 @@ footer.footer .copyright p.small {
   text-transform: none;
 }
 .btn-full-width:hover {
-  background-color: #EF4035;
+  background-color: #51211D;
   color: white;
 }
 .btn-full-width:focus {
@@ -1140,6 +1147,8 @@ footer.footer .copyright p.small {
 body.modern {
   font-family: "Cardo", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
+  color: #D2B162;
+  background-color: #51211D;
 }
 body.modern h1,
 body.modern h2,
@@ -1152,9 +1161,9 @@ body.modern p.lead,
 body.modern header .brand-name,
 body.modern .portfolio-carousel .project-name,
 body.modern .testimonials .testimonial-author .name {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: Didot, “Didot LT STD”, “Hoefler Text”, Garamond, “Times New Roman”, serif!important;
   font-weight: 700 !important;
-  text-transform: uppercase !important;
+  text-transform: capitalize !important;
 }
 body.modern .about-carousel .owl-controls .owl-prev,
 body.modern .testimonials .owl-controls .owl-prev,
@@ -1187,3 +1196,71 @@ body.vintage .about-carousel .owl-controls .owl-next,
 body.vintage .testimonials .owl-controls .owl-next {
   line-height: 55px !important;
 }
+
+
+.list-inline.social .fa {
+  font-size: 9rem;
+}
+
+img.main-logo {
+  width: 100px;
+  height: auto !important;
+  border-radius: 1000px;
+}
+@media screen and (max-width:768px) {
+  img.main-logo {
+    width: 60px;
+  }
+}
+
+.navbar-fixed-top.navbar-expanded .img-border {
+  border: none;
+  background: transparent;
+}
+.navbar-fixed-top .img-border {
+  /* text-shadow: 0px 0px 10px #222; */
+  background: #222;
+  border: 5px solid #222;
+}
+
+.intro-content img {
+  max-height: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.filter,
+.cta-quote,
+.pricing,
+.footer {
+  position: relative;
+  z-index: 1;
+}
+
+.filter:before,
+.cta-quote:before,
+.pricing:before,
+.footer:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#666;
+  opacity: 0.8;
+  z-index: 0;
+  mix-blend-mode: multiply;
+  overflow: hidden;
+}
+/*.definition{
+  text-transform: capitalize;
+}*/
+
+
+
+
+
+
