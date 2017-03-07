@@ -1203,8 +1203,11 @@ body.vintage .testimonials .owl-controls .owl-next {
 
 .list-inline.social .fa {
   font-size: 9rem;
+  color: #D2B162;
 }
-
+.list-inline.social .fa:hover {
+  color: white;
+}
 img.main-logo {
   width: 100px;
   height: auto !important;
