@@ -1280,15 +1280,26 @@ img.main-logo {
   border-radius: 3px;
 }
 
-.contactForm .btn.btn-outline-dark {
-  color: white;
-  border-color: white;
+
+
+.other-bars {
+    margin: 0 auto 4em;
+    position: relative;
+    overflow: hidden;
+    display: block;
 }
-.contactForm .btn:hover {
+
+.other-bars li {
+  margin: 0 auto 1em;
+}
+.btn.btn-outline-dark {
+  color: #D2B162;
+  border-color: #D2B162;
+}
+
+.btn:hover {
   background-color: #D2B162;
   color: white;
   border-color: transparent;
 }
-
-
 
