@@ -1307,14 +1307,15 @@ img.main-logo {
 .special-box {
   border: 2px solid #D2B162;
   padding: 15px;
-  /* background-color: rgba(210,177,98,.37); */
+  background-color: rgba(200,200,200,.8);
   z-index: 2;
 
 
 }
 
 .special-box p {
-  color: #ddd;
+  /* color: #ddd; */
+  color: #333;
 }
 .special-box .img {
   max-width: 300px;
