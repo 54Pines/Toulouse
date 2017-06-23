@@ -1334,4 +1334,10 @@ img.main-logo {
 .hours{
   list-style: none;
 }
-
+.divider{
+  background-color: #51211D;
+  padding: 2em;
+}
+.student{
+  max-width: 90px;
+}
