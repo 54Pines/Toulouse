@@ -109,7 +109,7 @@ $(document).ready(function() {
     $("header.video").background({
         source: {
             poster: "img/agency/backgrounds/bg-mobile-fallback.jpg",
-            mp4: "mp4/camera.mp4"
+            mp4: "mp4/printbg.mp4"
         }
     });
 
